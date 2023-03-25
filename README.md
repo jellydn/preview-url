@@ -1,11 +1,13 @@
 <h1 align="center">Welcome to preview-urls 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.3-blue.svg?cacheSeconds=2592000" />
 </p>
 
 ## Usage
 
+```sh
 TBD
+```
 
 ## Author
 
