@@ -29,19 +29,25 @@
     "build": "vite build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "dev": "vite",
+    "test": "vitest run src",
+    "test:watch": "vitest src",
     "pkg-check": "package-check",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@skypack/package-check": "^0.2.2",
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/svelte": "^3.2.2",
     "@tsconfig/svelte": "^3.0.0",
+    "jsdom": "^21.1.1",
     "svelte": "^3.57.0",
     "svelte-check": "^3.1.4",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",
-    "vite-plugin-dts": "^2.1.0"
+    "vite-plugin-dts": "^2.1.0",
+    "vitest": "^0.29.7"
   },
   "publishConfig": {
     "access": "public"
