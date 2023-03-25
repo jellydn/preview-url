@@ -1,5 +1,4 @@
-import "@testing-library/jest-dom";
-
+import { expect, test } from "vitest";
 import { render, screen } from "@testing-library/svelte";
 
 import PreviewUrls from "../lib/PreviewUrls.svelte";

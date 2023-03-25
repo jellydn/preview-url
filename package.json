@@ -28,12 +28,13 @@
   "scripts": {
     "build": "vite build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "dev": "vite",
-    "test": "vitest run",
     "coverage": "vitest run --coverage",
-    "test:watch": "vitest src",
+    "dev": "vite",
     "pkg-check": "package-check",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest src"
   },
   "devDependencies": {
     "@skypack/package-check": "^0.2.2",
@@ -42,6 +43,7 @@
     "@testing-library/svelte": "^3.2.2",
     "@tsconfig/svelte": "^3.0.0",
     "@vitest/coverage-c8": "^0.29.7",
+    "@vitest/ui": "^0.29.7",
     "jsdom": "^21.1.1",
     "svelte": "^3.57.0",
     "svelte-check": "^3.1.4",
