@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to preview-urls 👋</h1>
+<h1 align="center">Welcome to preview-url 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.3-blue.svg?cacheSeconds=2592000" />
 </p>

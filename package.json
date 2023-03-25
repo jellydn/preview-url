@@ -1,26 +1,26 @@
 {
-  "name": "preview-urls",
+  "name": "preview-url",
   "version": "0.0.3",
   "private": true,
   "keywords": [
-    "preview urls",
+    "preview url",
     "svelte",
     "svelte-component"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jellydn/preview-urls.git"
+    "url": "https://github.com/jellydn/preview-url.git"
   },
   "license": "MIT",
   "type": "module",
   "exports": {
-    "default": "./dist/preview-urls.js",
-    "import": "./dist/preview-urls.js",
-    "require": "./dist/preview-urls.cjs"
+    "default": "./dist/preview-url.js",
+    "import": "./dist/preview-url.js",
+    "require": "./dist/preview-url.cjs"
   },
-  "main": "./dist/preview-urls.cjs",
-  "unpkg": "./dist/preview-urls.js",
-  "module": "./dist/preview-urls.js",
+  "main": "./dist/preview-url.cjs",
+  "unpkg": "./dist/preview-url.js",
+  "module": "./dist/preview-url.js",
   "types": "./dist/main.d.ts",
   "files": [
     "dist/"

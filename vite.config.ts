@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/main.ts",
-      name: "PreviewUrls",
+      name: "PreviewUrl",
       formats: ["es", "umd", "cjs", "iife"],
     },
   },

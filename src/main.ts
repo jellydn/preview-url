@@ -1,1 +1,1 @@
-export * from "./lib/PreviewUrls.svelte";
+export * from "./lib/PreviewUrl.svelte";
