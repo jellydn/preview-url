@@ -1,9 +1,8 @@
 import "@testing-library/jest-dom";
 
-import { test, expect } from "vitest";
 import { render, screen } from "@testing-library/svelte";
 
-import PreviewUrls from "./PreviewUrls.svelte";
+import PreviewUrls from "../lib/PreviewUrls.svelte";
 
 test("shows proper heading when rendered", () => {
   render(PreviewUrls, { urls: [] });
