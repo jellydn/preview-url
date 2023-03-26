@@ -4,6 +4,7 @@
 	export let url: string;
   export let shortened: 'yes' | 'no' = 'no';
 
+  const originalUrl = url;
   // only get data if that is shortened url
   if (shortened === 'yes') {
     const getUrl = async () => {
@@ -18,11 +19,34 @@
   
 </script>
 
-<div role="contentinfo" class="preview-url">
+<div role="contentinfo" class="preview-url" data-tooltip={originalUrl}>
   <a class="link" href="{url}" target="_blank" rel="noopener noreferrer">{url}</a>
 </div>
 
 <style>
+  /* Style the tooltip */
+  [data-tooltip] {
+    position: relative;
+    display: inline-block;
+  }
+
+  [data-tooltip]::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    visibility: hidden;
+    background-color: #555;
+		color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    min-width: 100px;
+  }
+
+  [data-tooltip]:hover::before {
+    visibility: visible;
+  }
+
 	.preview-url {
 		text-align: center;
 		padding: 1em;
@@ -39,6 +63,16 @@
     color: white;
     text-decoration: none;
     transition: transform 0.3s;
+  }
+
+  /** truncate the url on mobile */
+  @media (max-width: 640px) {
+    .link {
+      max-width: 240px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
   }
   
   /* Add a hover effect to the link */
