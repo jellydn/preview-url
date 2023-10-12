@@ -39,7 +39,7 @@
   "devDependencies": {
     "@skypack/package-check": "0.2.2",
     "@sveltejs/vite-plugin-svelte": "2.0.3",
-    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/jest-dom": "6.1.4",
     "@testing-library/svelte": "3.2.2",
     "@tsconfig/svelte": "3.0.0",
     "@vitest/coverage-c8": "0.29.7",
