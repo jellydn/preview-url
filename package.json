@@ -40,7 +40,7 @@
     "@skypack/package-check": "0.2.2",
     "@sveltejs/vite-plugin-svelte": "2.0.3",
     "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/svelte": "3.2.2",
+    "@testing-library/svelte": "4.0.4",
     "@tsconfig/svelte": "3.0.0",
     "@vitest/coverage-c8": "0.29.7",
     "@vitest/ui": "0.29.7",
