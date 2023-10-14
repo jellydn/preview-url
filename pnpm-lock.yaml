@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   consola:
-    specifier: ^3.2.3
+    specifier: 3.2.3
     version: 3.2.3
   redaxios:
-    specifier: ^0.5.1
+    specifier: 0.5.1
     version: 0.5.1
 
 devDependencies:
