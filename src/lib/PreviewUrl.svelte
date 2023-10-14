@@ -1,4 +1,4 @@
-<svelte:options tag="preview-url" />
+<svelte:options customElement="preview-url" />
 
 <script lang="ts">
   import redaxios from 'redaxios';
