@@ -1,6 +1,9 @@
 <svelte:options tag="preview-url" />
 
 <script lang="ts">
+  import redaxios from 'redaxios';
+  import logger from 'consola';
+
 	export let url: string;
   export let shortened: 'yes' | 'no' = 'no';
 
@@ -9,9 +12,14 @@
   if (shortened === 'yes') {
     const getUrl = async () => {
       const apiUrl = 'https://twt-decode-url.productsway.com?url=';
-      const response = await fetch(apiUrl + url);
-      const data = await response.json();
-      url = data.url;
+      try {
+        const response = await redaxios.get<{
+          url: string 
+        }>(apiUrl + url);
+        url = response.data.url;
+      } catch (error) {
+        logger.error(error);
+      }
     };
 
     getUrl();
