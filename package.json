@@ -57,7 +57,7 @@
     "access": "public"
   },
   "dependencies": {
-    "consola": "^3.2.3",
-    "redaxios": "^0.5.1"
+    "consola": "3.2.3",
+    "redaxios": "0.5.1"
   }
 }
