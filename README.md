@@ -6,7 +6,7 @@
 ## Usage
 
 ```sh
-TBD
+pnpm run dev
 ```
 
 ## Author
