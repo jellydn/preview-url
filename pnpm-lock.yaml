@@ -18,7 +18,7 @@ devDependencies:
     version: 0.2.2
   '@sveltejs/vite-plugin-svelte':
     specifier: 3.0.1
-    version: 3.0.1(svelte@4.2.8)(vite@5.0.9)
+    version: 3.0.1(svelte@4.2.8)(vite@5.0.10)
   '@testing-library/jest-dom':
     specifier: 6.1.5
     version: 6.1.5(vitest@1.0.4)
@@ -50,11 +50,11 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   vite:
-    specifier: 5.0.9
-    version: 5.0.9
+    specifier: 5.0.10
+    version: 5.0.10
   vite-plugin-dts:
     specifier: 3.6.4
-    version: 3.6.4(typescript@5.3.3)(vite@5.0.9)
+    version: 3.6.4(typescript@5.3.3)(vite@5.0.10)
   vitest:
     specifier: 1.0.4
     version: 1.0.4(@vitest/ui@1.0.4)(jsdom@22.1.0)
@@ -599,7 +599,7 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
-  /@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.9):
+  /@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10):
     resolution: {integrity: sha512-gjr9ZFg1BSlIpfZ4PRewigrvYmHWbDrq2uvvPB1AmTWKuM+dI1JXQSUu2pIrYLb/QncyiIGkFDFKTwJ0XqQZZg==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
@@ -607,30 +607,30 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@4.2.8)(vite@5.0.9)
+      '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@4.2.8)(vite@5.0.10)
       debug: 4.3.4
       svelte: 4.2.8
-      vite: 5.0.9
+      vite: 5.0.10
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte@3.0.1(svelte@4.2.8)(vite@5.0.9):
+  /@sveltejs/vite-plugin-svelte@3.0.1(svelte@4.2.8)(vite@5.0.10):
     resolution: {integrity: sha512-CGURX6Ps+TkOovK6xV+Y2rn8JKa8ZPUHPZ/NKgCxAmgBrXReavzFl8aOSCj3kQ1xqT7yGJj53hjcV/gqwDAaWA==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.9)
+      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10)
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.5
       svelte: 4.2.8
       svelte-hmr: 0.15.3(svelte@4.2.8)
-      vite: 5.0.9
-      vitefu: 0.2.5(vite@5.0.9)
+      vite: 5.0.10
+      vitefu: 0.2.5(vite@5.0.10)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2843,7 +2843,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.9
+      vite: 5.0.10
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2855,7 +2855,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@3.6.4(typescript@5.3.3)(vite@5.0.9):
+  /vite-plugin-dts@3.6.4(typescript@5.3.3)(vite@5.0.10):
     resolution: {integrity: sha512-yOVhUI/kQhtS6lCXRYYLv2UUf9bftcwQK9ROxCX2ul17poLQs02ctWX7+vXB8GPRzH8VCK3jebEFtPqqijXx6w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2871,7 +2871,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.3.3
-      vite: 5.0.9
+      vite: 5.0.10
       vue-tsc: 1.8.25(typescript@5.3.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -2879,8 +2879,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite@5.0.9:
-    resolution: {integrity: sha512-wVqMd5kp28QWGgfYPDfrj771VyHTJ4UDlCteLH7bJDGDEamaz5hV8IX6h1brSGgnnyf9lI2RnzXq/JmD0c2wwg==}
+  /vite@5.0.10:
+    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2914,7 +2914,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.0.9):
+  /vitefu@0.2.5(vite@5.0.10):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -2922,7 +2922,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.0.9
+      vite: 5.0.10
     dev: true
 
   /vitest@1.0.4(@vitest/ui@1.0.4)(jsdom@22.1.0):
@@ -2970,7 +2970,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.1
-      vite: 5.0.9
+      vite: 5.0.10
       vite-node: 1.0.4
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
