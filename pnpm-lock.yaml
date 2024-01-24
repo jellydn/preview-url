@@ -20,11 +20,11 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1(svelte@4.2.9)(vite@5.0.12)
   '@testing-library/jest-dom':
-    specifier: 6.2.1
-    version: 6.2.1(vitest@1.2.1)
+    specifier: 6.3.0
+    version: 6.3.0(vitest@1.2.1)
   '@testing-library/svelte':
-    specifier: 4.0.5
-    version: 4.0.5(svelte@4.2.9)
+    specifier: 4.0.6
+    version: 4.0.6(svelte@4.2.9)
   '@tsconfig/svelte':
     specifier: 5.0.2
     version: 5.0.2
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 5.0.12
     version: 5.0.12
   vite-plugin-dts:
-    specifier: 3.7.1
-    version: 3.7.1(typescript@5.3.3)(vite@5.0.12)
+    specifier: 3.7.2
+    version: 3.7.2(typescript@5.3.3)(vite@5.0.12)
   vitest:
     specifier: 1.2.1
     version: 1.2.1(@vitest/ui@1.2.1)(jsdom@22.1.0)
@@ -658,8 +658,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/jest-dom@6.2.1(vitest@1.2.1):
-    resolution: {integrity: sha512-Nuy/uFFDe9h/2jwoUuMKgoxvgkUv4S9jI9bARj6dGUKJ3euRhg8JFi5sciYbrayoxkadEOZednRT9+vo6LvvxQ==}
+  /@testing-library/jest-dom@6.3.0(vitest@1.2.1):
+    resolution: {integrity: sha512-hJVIrkFizEQxoWsGBlycTcQhrpoCH4DhXfrnHFFXgkx3Xdm15zycsq5Ep+vpw4W8S0NJa8cxDHcuJib+1tEbhg==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
     peerDependencies:
       '@jest/globals': '>= 28'
@@ -690,8 +690,8 @@ packages:
       vitest: 1.2.1(@vitest/ui@1.2.1)(jsdom@22.1.0)
     dev: true
 
-  /@testing-library/svelte@4.0.5(svelte@4.2.9):
-    resolution: {integrity: sha512-P7X3mpYv/My4hBZfxVxTFV5KcA+EoWfRCguWP7WQdYj6HMdg/L+LiwG4ocvLe+hupedrC7dwcy85JlxKplJp2g==}
+  /@testing-library/svelte@4.0.6(svelte@4.2.9):
+    resolution: {integrity: sha512-4Niit+F/V3/AC03+/hsTrUJjXeoLFgd2KYjlz9nKFVELZR0dApHtc+tILe7NHiBctTAKTEzoM2VDLn1mBOqn3w==}
     engines: {node: '>= 10'}
     peerDependencies:
       svelte: ^3 || ^4
@@ -2865,8 +2865,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@3.7.1(typescript@5.3.3)(vite@5.0.12):
-    resolution: {integrity: sha512-VZJckNFpVfRAkmOxhGT5OgTUVWVXxkNQqLpBUuiNGAr9HbtvmvsPLo2JB3Xhn+o/Z9+CT6YZfYa4bX9SGR5hNw==}
+  /vite-plugin-dts@3.7.2(typescript@5.3.3)(vite@5.0.12):
+    resolution: {integrity: sha512-kg//1nDA01b8rufJf4TsvYN8LMkdwv0oBYpiQi6nRwpHyue+wTlhrBiqgipdFpMnW1oOYv6ywmzE5B0vg6vSEA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
