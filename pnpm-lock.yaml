@@ -46,8 +46,8 @@ importers:
         specifier: 3.8.0
         version: 3.8.0(postcss@8.4.38)(svelte@4.2.17)
       tslib:
-        specifier: 2.6.2
-        version: 2.6.2
+        specifier: 2.6.3
+        version: 2.6.3
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -1645,8 +1645,8 @@ packages:
     resolution: {integrity: sha512-2lv/66T7e5yNyhAAC4NaKe5nVavzuGJQVVtRYLyQ2OI8tsJ61PMLlelehb0wi2Hx6+hT/OJUWZcw8MjlSRnxvw==}
     engines: {node: '>=14'}
 
-  tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+  tslib@2.6.3:
+    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
   type-detect@4.0.8:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
@@ -3455,7 +3455,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  tslib@2.6.2: {}
+  tslib@2.6.3: {}
 
   type-detect@4.0.8: {}
 
