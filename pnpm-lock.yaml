@@ -49,14 +49,14 @@ importers:
         specifier: 2.8.1
         version: 2.8.1
       typescript:
-        specifier: 5.7.2
-        version: 5.7.2
+        specifier: 5.7.3
+        version: 5.7.3
       vite:
         specifier: 5.4.11
         version: 5.4.11
       vite-plugin-dts:
         specifier: 3.9.1
-        version: 3.9.1(rollup@4.29.2)(typescript@5.7.2)(vite@5.4.11)
+        version: 3.9.1(rollup@4.29.2)(typescript@5.7.3)(vite@5.4.11)
       vitest:
         specifier: 1.6.0
         version: 1.6.0(@vitest/ui@1.6.0)(jsdom@22.1.0)
@@ -1650,8 +1650,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2277,7 +2277,7 @@ snapshots:
       '@vue/compiler-core': 3.5.13
       '@vue/shared': 3.5.13
 
-  '@vue/language-core@1.8.27(typescript@5.7.2)':
+  '@vue/language-core@1.8.27(typescript@5.7.3)':
     dependencies:
       '@volar/language-core': 1.11.1
       '@volar/source-map': 1.11.1
@@ -2289,7 +2289,7 @@ snapshots:
       path-browserify: 1.0.1
       vue-template-compiler: 2.7.16
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   '@vue/shared@3.5.13': {}
 
@@ -3401,8 +3401,8 @@ snapshots:
       picocolors: 1.1.1
       sade: 1.8.1
       svelte: 4.2.19
-      svelte-preprocess: 5.1.4(postcss@8.4.49)(svelte@4.2.19)(typescript@5.7.2)
-      typescript: 5.7.2
+      svelte-preprocess: 5.1.4(postcss@8.4.49)(svelte@4.2.19)(typescript@5.7.3)
+      typescript: 5.7.3
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -3418,7 +3418,7 @@ snapshots:
     dependencies:
       svelte: 4.2.19
 
-  svelte-preprocess@5.1.4(postcss@8.4.49)(svelte@4.2.19)(typescript@5.7.2):
+  svelte-preprocess@5.1.4(postcss@8.4.49)(svelte@4.2.19)(typescript@5.7.3):
     dependencies:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
@@ -3428,7 +3428,7 @@ snapshots:
       svelte: 4.2.19
     optionalDependencies:
       postcss: 8.4.49
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   svelte@4.2.19:
     dependencies:
@@ -3484,7 +3484,7 @@ snapshots:
 
   typescript@5.4.2: {}
 
-  typescript@5.7.2: {}
+  typescript@5.7.3: {}
 
   ufo@1.5.4: {}
 
@@ -3527,16 +3527,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@3.9.1(rollup@4.29.2)(typescript@5.7.2)(vite@5.4.11):
+  vite-plugin-dts@3.9.1(rollup@4.29.2)(typescript@5.7.3)(vite@5.4.11):
     dependencies:
       '@microsoft/api-extractor': 7.43.0
       '@rollup/pluginutils': 5.1.4(rollup@4.29.2)
-      '@vue/language-core': 1.8.27(typescript@5.7.2)
+      '@vue/language-core': 1.8.27(typescript@5.7.3)
       debug: 4.4.0
       kolorist: 1.8.0
       magic-string: 0.30.17
-      typescript: 5.7.2
-      vue-tsc: 1.8.27(typescript@5.7.2)
+      typescript: 5.7.3
+      vue-tsc: 1.8.27(typescript@5.7.3)
     optionalDependencies:
       vite: 5.4.11
     transitivePeerDependencies:
@@ -3596,12 +3596,12 @@ snapshots:
       de-indent: 1.0.2
       he: 1.2.0
 
-  vue-tsc@1.8.27(typescript@5.7.2):
+  vue-tsc@1.8.27(typescript@5.7.3):
     dependencies:
       '@volar/typescript': 1.11.1
-      '@vue/language-core': 1.8.27(typescript@5.7.2)
+      '@vue/language-core': 1.8.27(typescript@5.7.3)
       semver: 7.6.3
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   w3c-xmlserializer@4.0.0:
     dependencies:
