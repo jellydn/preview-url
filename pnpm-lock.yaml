@@ -25,8 +25,8 @@ importers:
         specifier: 6.9.1
         version: 6.9.1
       '@testing-library/svelte':
-        specifier: 4.2.3
-        version: 4.2.3(svelte@4.2.20)
+        specifier: 5.3.1
+        version: 5.3.1(svelte@4.2.20)(vite@5.4.21)(vitest@1.6.1)
       '@tsconfig/svelte':
         specifier: 5.0.8
         version: 5.0.8
@@ -484,11 +484,24 @@ packages:
     resolution: {integrity: sha512-zIcONa+hVtVSSep9UT3jZ5rizo2BsxgyDYU7WFD5eICBE7no3881HGeb/QkGfsJs6JTkY1aQhT7rIPC7e+0nnA==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
 
-  '@testing-library/svelte@4.2.3':
-    resolution: {integrity: sha512-8vM2+JSPc6wZWkO9ICPmHvzacjy8jBw+iVjmNs+0VsPV3AO3v4P8qCLWTaQ9nYW/e+IR1BCy3MM3Uqg21dlBkw==}
+  '@testing-library/svelte-core@1.0.0':
+    resolution: {integrity: sha512-VkUePoLV6oOYwSUvX6ShA8KLnJqZiYMIbP2JW2t0GLWLkJxKGvuH5qrrZBV/X7cXFnLGuFQEC7RheYiZOW68KQ==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
+
+  '@testing-library/svelte@5.3.1':
+    resolution: {integrity: sha512-8Ez7ZOqW5geRf9PF5rkuopODe5RGy3I9XR+kc7zHh26gBiktLaxTfKmhlGaSHYUOTQE7wFsLMN9xCJVCszw47w==}
     engines: {node: '>= 10'}
     peerDependencies:
-      svelte: ^3 || ^4 || ^5
+      svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
+      vite: '*'
+      vitest: '*'
+    peerDependenciesMeta:
+      vite:
+        optional: true
+      vitest:
+        optional: true
 
   '@tootallnate/once@2.0.0':
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
@@ -2241,10 +2254,18 @@ snapshots:
       picocolors: 1.1.1
       redent: 3.0.0
 
-  '@testing-library/svelte@4.2.3(svelte@4.2.20)':
+  '@testing-library/svelte-core@1.0.0(svelte@4.2.20)':
+    dependencies:
+      svelte: 4.2.20
+
+  '@testing-library/svelte@5.3.1(svelte@4.2.20)(vite@5.4.21)(vitest@1.6.1)':
     dependencies:
       '@testing-library/dom': 9.3.4
+      '@testing-library/svelte-core': 1.0.0(svelte@4.2.20)
       svelte: 4.2.20
+    optionalDependencies:
+      vite: 5.4.21
+      vitest: 1.6.1(@vitest/ui@1.6.1)(jsdom@22.1.0)
 
   '@tootallnate/once@2.0.0': {}
 
